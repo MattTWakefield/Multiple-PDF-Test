@@ -10,3 +10,11 @@ test
 ```{r cars}
 df[df$alpha==ltr,]
 ```
+this is the number times two
+
+```{r}
+
+x<-df[df$alpha==ltr,"numbers"]
+mply(as.numeric(as.character(x)))
+
+```
